@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter';
+}
+
+body{
+  max-width: 100%;
+  padding: 32px;
+  background: #cfefee;
+  font-size: 20px;
+}
+
+h1{
+  font-size: 48px;
+  font-weight: 700;
+  color: #0f172a;
+  margin-bottom: 32px;
+}
+
+.titulo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.titulo h1 {
+  color: #07457e;
+}
+
+.titulo-table{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 0;
+}
+
+.titulo-table svg{
+  color: #2563eb;
+  font-size: 28px;
+}
+
+.titulo-table h2{
+  font-size: 28px;
+  font-weight: 700;
+  color: #0f172a;
+}
+
+table{
+  width: 100%;
+  margin-bottom: 20px;
+  background: white;
+  border-radius: 12px;
+} 
+
+table thead{
+  background: #f8fafc;
+}
+
+table th{
+  color: #475569;
+  text-align: left;
+  padding: 16px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+table td{
+  padding: 16px;
+  border-top: 1px solid #e2e8f0;
+}
+
+.dependencias {
+  margin-top: 50px;
+}
